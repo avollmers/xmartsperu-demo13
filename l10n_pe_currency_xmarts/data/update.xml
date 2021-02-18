@@ -1,0 +1,76 @@
+<odoo>
+    <data noupdate="0">
+        <record id="USDP" model="res.currency">
+            <field name="active">True</field>
+            <field name="name">USD</field>
+            <field name="rate_type">purchase</field>
+            <field name="symbol">$</field>
+            <field name="rounding">0.01</field>
+            <field name="position">before</field>
+            <field name="currency_unit_label">Dolares</field>
+            <field name="currency_subunit_label">Centavos</field>
+        </record>
+        
+        <record id="EURP" model="res.currency">
+            <field name="active">False</field>
+            <field name="name">EUR</field>
+            <field name="rate_type">purchase</field>
+            <field name="symbol">€</field>
+            <field name="rounding">0.01</field>
+            <field name="position">before</field>
+            <field name="currency_unit_label">Euros</field>
+            <field name="currency_subunit_label">Centavos</field>
+        </record>
+        <record id="CADP" model="res.currency">
+            <field name="active">False</field>
+            <field name="name">CAD</field>
+            <field name="rate_type">purchase</field>
+            <field name="symbol">$</field>
+            <field name="rounding">0.01</field>
+            <field name="position">before</field>
+            <field name="currency_unit_label">Dolares</field>
+            <field name="currency_subunit_label">Centavos</field>
+        </record>
+        <record id="GBPP" model="res.currency">
+            <field name="active">False</field>
+            <field name="name">GBP</field>
+            <field name="rate_type">purchase</field>
+            <field name="symbol">£</field>
+            <field name="rounding">0.01</field>
+            <field name="position">before</field>
+            <field name="currency_unit_label">Libra esterlina</field>
+            <field name="currency_subunit_label">penique</field>
+        </record>
+        <record id="CHFP" model="res.currency">
+            <field name="active">False</field>
+            <field name="name">CHF</field>
+            <field name="rate_type">purchase</field>
+            <field name="symbol">CHF</field>
+            <field name="rounding">0.01</field>
+            <field name="position">before</field>
+            <field name="currency_unit_label">Franco</field>
+            <field name="currency_subunit_label">Centimos</field>
+        </record>
+        <record id="JPYP" model="res.currency">
+            <field name="active">False</field>
+            <field name="name">JPY</field>
+            <field name="rate_type">purchase</field>
+            <field name="symbol">¥</field>
+            <field name="rounding">0.01</field>
+            <field name="position">before</field>
+            <field name="currency_unit_label">Yen</field>
+            <field name="currency_subunit_label">Cen</field>
+        </record>
+        <record id="CNYP" model="res.currency">
+            <field name="active">False</field>
+            <field name="name">CNY</field>
+            <field name="rate_type">purchase</field>
+            <field name="symbol">¥</field>
+            <field name="rounding">0.01</field>
+            <field name="position">before</field>
+            <field name="currency_unit_label">Yuan</field>
+            <field name="currency_subunit_label">Fen</field>
+        </record>
+        <function model="res.currency" name="update" eval="[[ref('base.PEN')]]"/>
+    </data>
+</odoo>

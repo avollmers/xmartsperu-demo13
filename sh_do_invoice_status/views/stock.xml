@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="sh_stock_picking_form_view" model="ir.ui.view">
+            <field name="name">stock.picking</field>
+            <field name="model">stock.picking</field>
+            <field name="inherit_id" ref="stock.view_picking_form" />
+            <field name="arch" type="xml">
+                <field name="move_type" position="after">
+                    <field name="sh_show_amount" invisible="1" />
+                    <field name="sh_show_invoice_status_in_pdf" attrs="{'invisible':[('picking_type_code','in',['incoming','internal'])]}" />
+                    <field name="sh_total_amount" attrs="{'invisible':['|',('sh_show_amount','=',False),('picking_type_code','in',['incoming','internal'])]}" />
+                    <field name="sh_paid_amount" attrs="{'invisible':['|',('sh_show_amount','=',False),('picking_type_code','in',['incoming','internal'])]}" />
+                    <field name="sh_balance_amount" attrs="{'invisible':['|',('sh_show_amount','=',False),('picking_type_code','in',['incoming','internal'])]}" />
+                    <field name="sh_invoice_status" invisible="1" />
+                    <field name="hide_validate_button" invisible="1" />
+                </field>
+                <xpath expr="//sheet//div[@name='button_box']" position="before">
+                    <div attrs="{'invisible': ['|',('sh_invoice_status', 'in', ['fully_paid','partially_paid']),('picking_type_code','in',['incoming','internal'])]}">
+                        <span class="badge badge-danger float-right">Invoice not paid</span>
+                    </div>
+                    <div attrs="{'invisible': ['|',('sh_invoice_status', 'in', ['not_paid','fully_paid']),('picking_type_code','in',['incoming','internal'])]}">
+                        <span class="badge badge-warning float-right">Invoice partially paid</span>
+                    </div>
+                    <div attrs="{'invisible': ['|',('sh_invoice_status', 'in', ['not_paid','partially_paid']),('picking_type_code','in',['incoming','internal'])]}">
+                        <span class="badge badge-success float-right">Invoice fully paid</span>
+                    </div>
+                </xpath>
+                <button name="button_validate" position="attributes">
+                    <attribute name="attrs">{'invisible':['|',('state','in',['done','cancel']),('hide_validate_button','=',False)]}</attribute>
+                </button>
+            </field>
+        </record>
+    </data>
+</odoo>

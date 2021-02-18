@@ -1,0 +1,31 @@
+<odoo>
+  <data>
+    <record model="ir.ui.view" id="res_currency_inherit_tree_view">
+      <field name="name">res.currency.inherit.tree.view</field>
+      <field name="model">res.currency</field>
+      <field name="inherit_id" ref="base.view_currency_tree"/>
+      <field name="arch" type="xml">
+        <field name = "name" position = "after">
+          <field name = "rate_type"/>
+          <field name = "name_type"/>
+        </field>
+        <field name = "rate" position = "before">
+          <field name = "rate_inv"/>
+        </field>
+      </field>
+    </record>
+    <record model="ir.ui.view" id="res_currency_inherit_form_view">
+      <field name="name">res.currency.inherit.form.view</field>
+      <field name="model">res.currency</field>
+      <field name="inherit_id" ref="base.view_currency_form"/>
+      <field name="arch" type="xml">
+        <field name = "rate" position = "before">
+          <field name = "rate_inv"/>
+        </field>
+        <field name = "currency_unit_label" position = "before">
+          <field name = "rate_type"/>
+        </field>
+      </field>
+    </record>
+  </data>
+</odoo>

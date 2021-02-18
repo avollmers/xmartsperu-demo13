@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="sh_report_picking_operation" inherit_id="stock.report_picking">
+        <xpath expr="//h1[@t-field='o.name']" position="before">
+            <t t-if="o.sh_show_invoice_status_in_pdf == True">
+                <t t-if="o.sh_invoice_status in ['not_paid']">
+                    <span class="badge badge-danger float-left">Invoice not paid</span>
+                </t>
+                <t t-if="o.sh_invoice_status in ['partially_paid']">
+                    <span class="badge badge-warning float-left">Invoice partially paid</span>
+                </t>
+                <t t-if="o.sh_invoice_status in ['fully_paid']">
+                    <span class="badge badge-success float-left">Invoice fully paid</span>
+                </t>
+            </t>
+            <br />
+        </xpath>
+    </template>
+    <template id="sh_report_delivery_slip" inherit_id="stock.report_delivery_document">
+        <xpath expr="//div[hasclass('page')]//h2[1]" position="before">
+            <t t-if="o.sh_show_invoice_status_in_pdf == True">
+                <t t-if="o.sh_invoice_status in ['not_paid']">
+                    <span class="badge badge-danger float-left">Invoice not paid</span>
+                </t>
+                <t t-if="o.sh_invoice_status in ['partially_paid']">
+                    <span class="badge badge-warning float-left">Invoice partially paid</span>
+                </t>
+                <t t-if="o.sh_invoice_status in ['fully_paid']">
+                    <span class="badge badge-success float-left">Invoice fully paid</span>
+                </t>
+            </t>
+            <br />
+        </xpath>
+    </template>
+</odoo>

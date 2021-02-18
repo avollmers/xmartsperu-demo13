@@ -1,0 +1,605 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_edi_picking
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-10 18:23+0000\n"
+"PO-Revision-Date: 2020-12-10 18:23+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.res_config_settings_view_form
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Follow the instructions"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Siga las instrucciones"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.res_config_settings_view_form
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Request an account"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>Registre una cuenta"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Configuration</span>"
+msgstr "<span class=\"o_form_label\">Configuración</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\">Send your electronic picking by PSE / OSE</span>\n"
+"                            <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+"<span class=\"o_form_label\">Enviar Guías electrónicas vía PSE / OSE</span>\n"
+"                            <span class=\"fa fa-lg fa-building-o\" title=\"Valores para compañía específica.\" role=\"img\" aria-label=\"Valores para compañía específica.\" groups=\"base.group_multi_company\"/>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid ""
+"<span class=\"o_stat_text\">Accepted by</span>\n"
+"                        <span class=\"o_stat_text\">SUNAT</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Aceptado por</span>\n"
+"                        <span class=\"o_stat_text\">SUNAT</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid ""
+"<span class=\"o_stat_text\">Check</span>\n"
+"                        <span class=\"o_stat_text\">Status</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Verificar</span>\n"
+"                        <span class=\"o_stat_text\">Estado</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid ""
+"<span class=\"o_stat_text\">Convert to</span>\n"
+"                        <span class=\"o_stat_text\">E-picking</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Convertir a</span>\n"
+"                        <span class=\"o_stat_text\">Guía electrónica</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid "<span class=\"o_stat_text\">EDI Request</span>"
+msgstr "<span class=\"o_stat_text\">Registro EDI</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid ""
+"<span class=\"o_stat_text\">Send to</span>\n"
+"                        <span class=\"o_stat_text\">SUNAT</span>"
+msgstr ""
+"<span class=\"o_stat_text\">Enviar a</span>\n"
+"                        <span class=\"o_stat_text\">SUNAT</span>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "<span>DNI</span>"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "<span>RUC</span>"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "<strong style=\"text-transform: uppercase;\">ADDRESS: </strong>"
+msgstr "<strong style=\"text-transform: uppercase;\">DIRECCIÓN: </strong>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid ""
+"<strong style=\"text-transform: uppercase;\">DATA OF THE STARTING POINT AND "
+"ARRIVAL POINT: </strong>"
+msgstr ""
+"<strong style=\"text-transform: uppercase;\">DATOS DEL PUNTO DE PARTIDA Y "
+"PUNTO DE LLEGADA: </strong>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "<strong style=\"text-transform: uppercase;\">TRANSFER DATA: </strong>"
+msgstr ""
+"<strong style=\"text-transform: uppercase;\">DATOS DE TRANSFERENCIA: "
+"</strong>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid ""
+"<strong style=\"text-transform: uppercase;\">TRANSPORTATION DATA: </strong>"
+msgstr ""
+"<strong style=\"text-transform: uppercase;\">DATOS DEL TRANSPORTE: </strong>"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "ARRIVAL POINT:"
+msgstr "PUNTO DE LLEGADA:"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_sunat_accepted
+msgid "Accepted by SUNAT"
+msgstr "Aceptado por SUNAT"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_arrival_point_id
+msgid "Arrival Point"
+msgstr "Punto de llegada"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "CARRIER:"
+msgstr "TRANSPORTISTA:"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.masive_picking_sending_view_form
+msgid "Cancel"
+msgstr "Cancelar"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_carrier_id
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid "Carrier"
+msgstr "Transportista"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid "Carrier doesn't have document number or document type assigned"
+msgstr "El transportista no tiene tipo o número de documento"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.server,name:l10n_pe_edi_picking.cron_check_picking_day_ir_actions_server
+#: model:ir.cron,cron_name:l10n_pe_edi_picking.cron_check_picking_day
+#: model:ir.cron,name:l10n_pe_edi_picking.cron_check_picking_day
+msgid "Check pickings day"
+msgstr "Verificar Guías por día"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.res_config_settings_view_form
+msgid "Choose your PSE / OSE provider"
+msgstr "Elija su proveedor PSE / OSE"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "Code"
+msgstr "Código"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_company_partner_id
+msgid "Company Partner"
+msgstr "Contacto de compañía"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_masive_picking_sending__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_masive_picking_sending__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.tree_picking_not_sent
+msgid "Customer"
+msgstr "Cliente"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "DATE START OF TRANSFER:"
+msgstr "FECHA INICIO DE TRASLADO:"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "DENOMINATION:"
+msgstr "DENOMINACIÓN:"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "DRIVER:"
+msgstr "CONDUCTOR:"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "Description"
+msgstr "Descripción"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_masive_picking_sending__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_l10n_pe_edi_request__type
+msgid "Document ype"
+msgstr "Tipo de documento"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_driver_id
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid "Driver"
+msgstr "Conductor"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid "Driver doesn't  have document number or document type assigned"
+msgstr "El conductor no tiene un tipo y número de documento asignado"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_l10n_pe_edi_picking_number__picking_id
+msgid "E-Picking"
+msgstr "Guía Electrónica"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid "E-Picking Data"
+msgstr "Datos de Guía Electónica"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_name
+msgid "E-Picking Name"
+msgstr "Guía electrónica"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__l10n_pe_edi_picking_sequence_id
+msgid "E-Picking Sequence"
+msgstr "Secuencia para Guía electrónica"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_l10n_pe_edi_request
+msgid "EDI PE Request"
+msgstr "Soliciud de envío"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid "EDI Request"
+msgstr "Regitro EDI"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "EMISSION DATE:"
+msgstr "FECHA DE EMISIÓN"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_type_form
+msgid "Elecronic picking"
+msgstr "Guía Electrónica"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.report,name:l10n_pe_edi_picking.picking_report
+msgid "Electronic Remission Guide"
+msgstr "Guía electrónica"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.act_window,name:l10n_pe_edi_picking.l10n_pe_edi_request_picking_action
+#: model:ir.ui.menu,name:l10n_pe_edi_picking.l10n_pe_edi_request_picking_menu
+msgid "Follow E-Pickings"
+msgstr "Seguimiento de G. Electrónicas"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.actions.act_window,help:l10n_pe_edi_picking.l10n_pe_edi_request_picking_action
+msgid "Follow the Electronic documents"
+msgstr "Seguimiento de documentos electrónicos"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_masive_picking_sending__id
+msgid "ID"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_observations
+msgid "If you want line breaks for the printed or PDF representation use <br>"
+msgstr "Si desea agregar salto de linea en la impresión del PDF use <br>"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_is_epicking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__l10n_pe_edi_is_epicking
+msgid "Is E-picking"
+msgstr "Es Guía electrónica"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_masive_picking_sending____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_masive_picking_sending__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_masive_picking_sending__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_carrier_license_plate
+msgid "License Plate"
+msgstr "Placa de vehículo"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.picking_layout
+msgid "Logo"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "MODE OF TRANSPORTATION:"
+msgstr "MODALIDAD DE TRANSPORTE:"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "MOTION FOR TRANSFER:"
+msgstr "MOTIVO DE TRASLADO:"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_masive_picking_sending
+msgid "Masive Picking Sending"
+msgstr "Envío masivo de Guías"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_multishop
+msgid "Multi-Shop"
+msgstr "Multi-Tienda"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "NUMBER OF PACKAGES:"
+msgstr "NÚMERO DE BULTOS:"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_number
+msgid "Number"
+msgstr "Número"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_number_packages
+msgid "Number Of Packages"
+msgstr "Número de paquetes"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_observations
+msgid "Observations"
+msgstr "Observaciones"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.res_config_settings_view_form
+msgid "Operation Types"
+msgstr "Tipos de Operación"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_request_id
+msgid "PSE/OSE request"
+msgstr "Registro EDI"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_partner_id
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.res_config_settings_view_form
+msgid "Peruvian Electronic Picking"
+msgstr "Guías Electrónicas Perú"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields.selection,name:l10n_pe_edi_picking.selection__l10n_pe_edi_request__type__picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.tree_picking_not_sent
+msgid "Picking"
+msgstr "Guía"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_stock_picking_type
+msgid "Picking Type"
+msgstr "Tipo de albarán"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid "Please select a PSE/OSE supplier for the company %s"
+msgstr "Por favor seleccione un proveedor PSE/OSE para la compañía %s"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "Qty"
+msgstr "Cantidad"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.picking_layout
+msgid "REMISSION GUIDE"
+msgstr "GUÍA DE REMISIÓN"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.picking_layout
+msgid "RUC"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "RUC/DNI:"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_catalog_20_id
+msgid "Reason for transfer"
+msgstr "Motivo de Transferencia"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.picking_layout
+msgid ""
+"Representación impresa de la GUIA DE REMISIÓN REMITENTE ELECTRÓNICA, para "
+"ver el documento visita"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_response
+msgid "Response"
+msgstr "Respuesta"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid ""
+"Review the Journal configuration and select a shop: \n"
+" Journal: %s"
+msgstr ""
+"Revise la configuración del Diario y asigne una tienda: \n"
+" Diario: %s"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "STARTING POINT:"
+msgstr "PUNTO DE PARTIDA:"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "STREET:"
+msgstr "DIRECCIÓN:"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.masive_picking_sending_view_form
+msgid "Send"
+msgstr "Enviar"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.server,name:l10n_pe_edi_picking.cron_send_picking_day_ir_actions_server
+#: model:ir.cron,cron_name:l10n_pe_edi_picking.cron_send_picking_day
+#: model:ir.cron,name:l10n_pe_edi_picking.cron_send_picking_day
+msgid "Send pickings day"
+msgstr "Enviar Guías por día"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.masive_picking_sending_view_form
+msgid "Send the selected pickings to SUNAT."
+msgstr "Enviar las guías seleccionadas a SUNAT"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.actions.act_window,name:l10n_pe_edi_picking.action_api_connect_multi_sunat
+msgid "Send to OSE/SUNAT"
+msgstr "Enviar a PSE/OSE"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_ose_accepted
+msgid "Sent to PSE/OSE"
+msgstr "Enviar a PSE/OSE"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_serie
+msgid "Serie"
+msgstr ""
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_shop_id
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking_type__l10n_pe_edi_shop_id
+msgid "Shop"
+msgstr "Tienda"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_start_transport_date
+msgid "Start Transport Date"
+msgstr "Fecha de transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_starting_point_id
+msgid "Starting Point"
+msgstr "Punto de partida"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "TOTAL GROSS WEIGHT (KGM):"
+msgstr "PESO BRUTO TOTAL (KGM):"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid "The Picking is not a Electronic Document"
+msgstr "Esta guía no es un comprobante electrónico"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid ""
+"This document cannot be converted to electronic picking. The partner doesn't"
+" have RUC"
+msgstr ""
+"Este documento no puede ser convertido a Guía electrónica. El cliente no "
+"tiene RUC"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid ""
+"This document cannot be converted to electronic picking. The picking should "
+"be done"
+msgstr ""
+"Este documento no puede ser convertido a Guía Electrónica. La Guía debe  "
+"estar procesada"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_total_gross_weight
+msgid "Total Gross Weight"
+msgstr "Total peso neto"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_stock_picking
+msgid "Transfer"
+msgstr "Albarán"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.view_picking_form
+msgid "Transport"
+msgstr "Transporte"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,field_description:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_catalog_18_id
+msgid "Transport Type"
+msgstr "Tipo de transporte"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "UoM"
+msgstr "Udm"
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_picking.report_epicking_guide
+msgid "VEHICLE:"
+msgstr "VEHÍCULO:"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model.fields,help:l10n_pe_edi_picking.field_stock_picking__l10n_pe_edi_picking_total_gross_weight
+msgid "Weight in Kg."
+msgstr "Peso en Kg."
+
+#. module: l10n_pe_edi_picking
+#: model_terms:ir.actions.act_window,help:l10n_pe_edi_picking.l10n_pe_edi_request_picking_action
+msgid ""
+"When the document is sent to PSE/OSE, you can follow the document status in "
+"SUNAT"
+msgstr ""
+"Cuando el documento es enviado al PSE/OSE podrá verificar el estado del "
+"comprobante en SUNAT"
+
+#. module: l10n_pe_edi_picking
+#: code:addons/l10n_pe_edi_picking/models/stock_picking.py:0
+#, python-format
+msgid ""
+"You cannot convert this document to electronic picking. Configure the "
+"settings of 'Picking operation type'"
+msgstr ""
+"No puede convertir este documento en Guía electrónica. Revise la "
+"configuración del 'Tipo de operación'"
+
+#. module: l10n_pe_edi_picking
+#: model:ir.model,name:l10n_pe_edi_picking.model_l10n_pe_edi_picking_number
+msgid "l10n_pe_edi.picking.number"
+msgstr ""

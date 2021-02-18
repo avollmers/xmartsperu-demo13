@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="pos_retail_assets" name="pos_auto_invoice assets" inherit_id="point_of_sale.assets">
+        <xpath expr="." position="inside">
+            <script type="text/javascript" src="/l10n_pe_edi_pos/static/src/js/model.js"/>
+            <script type="text/javascript" src="/l10n_pe_edi_pos/static/src/js/db.js"/>
+            <script type="text/javascript" src="/l10n_pe_edi_pos/static/src/js/order.js"/>
+            <script type="text/javascript" src="/l10n_pe_edi_pos/static/src/js/screen_payment.js"/>
+            <script type="text/javascript" src="/l10n_pe_edi_pos/static/src/js/ticket.js"/>
+            <link rel="stylesheet" href="/l10n_pe_edi_pos/static/src/css/pos.css"/>
+        </xpath>
+    </template>
+
+
+</odoo>

@@ -1,0 +1,359 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* l10n_pe_edi_pos
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-23 06:45+0000\n"
+"PO-Revision-Date: 2020-11-23 06:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid ", is not valid."
+msgstr ", no es válido"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid ". Visit"
+msgstr ". Visitar"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid "ALERT"
+msgstr "ALERTA"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "AMOUNT IN LETTERS:"
+msgstr "IMPORTE EN LETRAS:"
+
+#. module: l10n_pe_edi_pos
+#: model:ir.model.fields,field_description:l10n_pe_edi_pos.field_pos_config__invoice_journal_ids
+msgid "Accounting Invoice Journal"
+msgstr "Diario de facturas contables"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "CLIENTE"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "COIN:"
+msgstr "MONEDA:"
+
+#. module: l10n_pe_edi_pos
+#: model:ir.model.fields,field_description:l10n_pe_edi_pos.field_pos_config__default_partner_id
+msgid "Client by default"
+msgstr "Cliente por defecto"
+
+#. module: l10n_pe_edi_pos
+#: model:ir.model,name:l10n_pe_edi_pos.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "DATE ISSUE:"
+msgstr "FECHA EMISIÓN:"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "DESCRIPTION"
+msgstr "DESCRIPCIÓN"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "DISCOUNT"
+msgstr "DESCUENTO"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "DNI :"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "DNI/RUC"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_pos.pos_config_view_form
+msgid "Default client"
+msgstr "Cliente por defecto"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "Doc. type"
+msgstr "Tipo de Doc."
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "Doc. type."
+msgstr "Tipo de Doc."
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "EXPIRATION DATE:"
+msgstr "FECHA DE VENC:"
+
+#. module: l10n_pe_edi_pos
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_pos.pos_config_view_form
+msgid "Electronic invoicing"
+msgstr "Facturación Electrónica"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "IGV 18%"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "IGV:"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "Invoice Document Type"
+msgstr "Tipo de comprobante"
+
+#. module: l10n_pe_edi_pos
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_pos.pos_config_view_form
+msgid "Invoice Journals"
+msgstr "Diarios de factura"
+
+#. module: l10n_pe_edi_pos
+#: model:ir.model.fields,help:l10n_pe_edi_pos.field_pos_config__invoice_journal_ids
+msgid "Invoice journals for Electronic invoices."
+msgstr "Diarios para los comprobantes electrónicos"
+
+#. module: l10n_pe_edi_pos
+#: model:ir.model.fields,field_description:l10n_pe_edi_pos.field_pos_order__invoice_journal_id
+msgid "Journal account"
+msgstr "Cuenta de diario"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "Logo"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "N/A"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid "New client"
+msgstr "Nuevo cliente"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "None"
+msgstr "Ninguno"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "P.U."
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "PAYMENT METHOD :"
+msgstr "MÉTODO DE PAGO :"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid "Please select a Document type."
+msgstr "Por favor elija un tipo de comprobante"
+
+#. module: l10n_pe_edi_pos
+#: model:ir.model,name:l10n_pe_edi_pos.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Configuración del TPV"
+
+#. module: l10n_pe_edi_pos
+#: model:ir.model,name:l10n_pe_edi_pos.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "Pedidos del TPV"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "Printed representation of"
+msgstr "Representación impresa de"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "QTY."
+msgstr "CANT"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "RUC :"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "SUB-TOTAL"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid "Select a client for creating an Invoice."
+msgstr "Seleccione un cliente para crear el comprobante"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid "Select the Identification type of the client: "
+msgstr "Seleccione el tipo de Doc. de identificación para el cliente"
+
+#. module: l10n_pe_edi_pos
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_pos.pos_config_view_form
+msgid ""
+"Select the client by default for Electronic invoices. It could bue used for "
+"Documents type 'Boleta'"
+msgstr ""
+"Seleccione el cliente por defecto para los comprobantes electrónicos. Usado "
+"principalmente para Comprobantes tipo 'Boleta'"
+
+#. module: l10n_pe_edi_pos
+#: model_terms:ir.ui.view,arch_db:l10n_pe_edi_pos.pos_config_view_form
+msgid "Select the journals for Electronic invoices"
+msgstr "Seleccione los Diarios para la Facturación electrónica"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "TOTAL"
+msgstr ""
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "TOTAL TO PAY"
+msgstr "TOTAL A PAGAR"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "Tel:"
+msgstr "Tel.:"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid "The DNI of the client: "
+msgstr "El DNI del cliente: "
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid "The RUC of the client: "
+msgstr "El RUC del cliente: "
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/js/screen_payment.js:0
+#, python-format
+msgid "The document type 'Factura' is valid only for clients with valid RUC."
+msgstr "El tipo de comprobante 'Factura' es válido solo para clientes con un RUC."
+
+#. module: l10n_pe_edi_pos
+#: model:ir.model.fields,help:l10n_pe_edi_pos.field_pos_config__default_partner_id
+msgid "This client will be set by default in the order"
+msgstr "Este cliente será asignado por defecto en los Pedidos"
+
+#. module: l10n_pe_edi_pos
+#. openerp-web
+#: code:addons/l10n_pe_edi_pos/static/src/xml/pos.xml:0
+#, python-format
+msgid "VAT:"
+msgstr "RUC/DNI:"

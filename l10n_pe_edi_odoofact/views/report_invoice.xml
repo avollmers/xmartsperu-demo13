@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id ="report_electronic_invoice_document_l10n_pe_edi" inherit_id = "account.report_invoice_document">
+       <xpath expr="//div[@id='qrcode']" position="after">
+            <div class="row">
+                <div style="text-align: center;" class="col-12">
+                    <img t-att-src="'/report/barcode/QR/%s|%s|%s|%s|%s|%s|%s|%s|%s|'%(o.company_id.vat,o.l10n_latam_document_type_id.code,o.l10n_pe_edi_serie,o.l10n_pe_edi_number,o.l10n_pe_edi_amount_igv,o.amount_total,o.invoice_date,o.partner_id.l10n_latam_identification_type_id.l10n_pe_vat_code,o.partner_id.vat)"  style="width:100px;height:100px;"/>
+                </div>
+            </div>
+       </xpath>
+    </template>
+</odoo>

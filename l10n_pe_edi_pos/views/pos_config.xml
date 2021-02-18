@@ -1,0 +1,65 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="pos_config_view_form">
+            <field name="name">pos.config.retail</field>
+            <field name="model">pos.config</field>
+            <field name="inherit_id" ref="point_of_sale.pos_config_view_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@id='iface_invoicing']//div[hasclass('o_setting_right_pane')]" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+                <xpath expr="//div[@id='iface_invoicing']//div[hasclass('o_setting_right_pane')]" position="after">
+                    <div class="o_setting_right_pane">
+                        <label string="Electronic invoicing" for="module_account"/>
+                        <div class="text-muted" id="einvoice_journal">
+                            Select the journals for Electronic invoices
+                        </div>
+                        <div class="content-group mt16" attrs="{'invisible': [('module_account', '=', False)]}">
+                            <div class="row mt16">
+                                <label string="Invoice Journals" for="invoice_journal_ids" class="col-lg-3 o_light_label"/>
+                                <field name="invoice_journal_ids" widget="many2many_tags" 
+                                        domain="[('company_id', '=', company_id), ('type', '=', 'sale')]"
+                                        attrs="{'required': [('module_account', '=', True)]}"
+                                        context="{'default_company_id': company_id, 'default_type': 'sale'}"
+                                        options="{'no_create': True}"/>
+                            </div>
+                        </div>
+                        <!-- Cliet by default  -->
+                        <div class="text-muted" id="default_partner" attrs="{'invisible': [('module_account', '=', False)]}">
+                            Select the client by default for Electronic invoices. It could bue used for Documents type 'Boleta'
+                        </div>
+                        <div class="content-group mt16" attrs="{'invisible': [('module_account', '=', False)]}">
+                            <div class="row mt16">
+                                <label string="Default client" for="default_partner_id" class="col-lg-3 o_light_label"/>
+                                <field name="default_partner_id" options="{'no_create': True}"/>
+                            </div>
+                        </div>
+                    </div>
+                </xpath>
+                <!-- <xpath expr="//div[@id='iface_invoicing']" position="before">
+                    <div class="col-12 col-lg-6 o_setting_box" id="iface_einvoice">
+                        <div class="o_setting_left_pane">
+                            <field name="module_einvoice"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label string="Electronic invoicing" for="module_einvoice"/>
+                            <div class="text-muted" id="einvoice_journal">
+                                Select the journals for Electronic invoices
+                            </div>
+                            <div class="content-group mt16" attrs="{'invisible': [('module_einvoice', '=', False)]}">
+                                <div class="row mt16">
+                                    <label string="Invoice Journals" for="invoice_journal_ids" class="col-lg-3 o_light_label"/>
+                                    <field name="invoice_journal_ids" widget="many2many_tags" 
+                                            domain="[('company_id', '=', company_id), ('type', '=', 'sale')]"
+                                            attrs="{'required': [('module_account', '=', True)]}"
+                                            context="{'default_company_id': company_id, 'default_type': 'sale'}"
+                                            options="{'no_create': True}"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </xpath> -->
+            </field>
+        </record>
+    </data>
+</odoo>
